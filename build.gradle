@@ -1,0 +1,14 @@
+apply from: "gradle/vertx.gradle"
+
+dependencies {
+  provided "org.codehaus.groovy:groovy-all:$groovyVersion"
+  provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
+  
+  compile 'org.python:jython-standalone:2.7-b2'
+  compile 'org.pygments:pygments:1.5' // should be runtime... Why ?
+}
+
+test {
+}
+
+

@@ -1,0 +1,5 @@
+src/main/resources
+bin
+out/production/zmarkdown-sockets
+out/test/zmarkdown-sockets
+build/deps
